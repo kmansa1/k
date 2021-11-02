@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+--blue:#0bb8ff;
+--gray: #f7f8f9;
+--footer: #28323c;
+--nav: #c5c8ce;
+--gray-font:#aaaaaa;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.app-download{
+    z-index: 101;
+    right: 0;
+    bottom: 0;
+    width: 340px;
+    height: 90px;
+    overflow: hidden;
+    background-color: transparent;
+}
+.app-download>img{
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 7px;
+    width: auto;
+    height: 60px;
+    border-radius: 12px;
+
+}
+.intro{
+    background-image: url(img/main_visual_fullscreen.jpg);
+    width: 100%;
+    height: 600px; 
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    top: 0;
+    transition: all 0.2s;
+}
+.intro-explaun{
+    text-align: center;
+    color: #fff;
+    font-size: 48pt;
+    line-height: 1.4;
+    letter-spacing: 0;
+    font-family:  "AvenirLTPro-Heavy", 'sdg-b', sans-serif;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 40%);
+}

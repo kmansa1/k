@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+--blue-color:#0bb8ff;
+--gray-color: #f7f8f9;
+--footer-background-color: #28323c;
+--footer-font-color:#646f7c;
+--nav-font: #c5c8ce;
+--gray-font:#aaaaaa;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: roboto;
+}
+.app-download{
+    width: 400px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.app-download>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    left: -10px;
+}
+.app-download>span{
+    display: block;
+    font-size: 20px;
+    line-height: 90px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+.app-download .bule{
+    width: 400px;
+    height: 90px;
+    
+} 
+#intro{
+    height: 100vh;
+    background-image: url(img/main_visual_fullscreen.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+h1>img{
+    width: 112px;
+    display: block;
+}
+h1>span{
+    clip: 1px 1px 1px 1px;
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+}
+.dd{
+    width: 36px;
+    height: 14px;
+    position: relative;
+}
+.dd>span{
+    width: 26px;
+    height: 3px;
+    background-color: white;
+    display: block;
+}
+.dd>span:last-child{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.intro-explaun{
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main-container{
+    width: 800px;
+    margin: 0 auto;
+}
+.main-contents{
+    margin-top: 120px;
+}
+.main-contents>h3{
+    font-size: 40px;
+    display: inline-block;
+    position: relative;
+}
+.main-contents>h3::after{
+    content: '';
+    background-color: var(--blue-color);
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 8px;
+    right: -17px;
+
+}
+.main-contents>p{
+    font-size: 19px;
+    color: var(--gray-font);
+    margin-top: 25px;
+}
+
+.main-container img{
+    width: 100%;
+    margin-top: 60px;
+}    
+
+#member{
+    height: 444px;
+    background-color: var(--gray-color);
+    position: relative;
+    overflow: hidden;
+}
+#member.blue{
+    height: 444px;
+    width: 400px;
+    background-color: var(--blue-color);
+    position: absolute;
+    right: -130px;
+    
+}
+.member-contents{
+    font-size: 40px;
+    color: var(--gray-font);
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.blue-text{
+    color: var(--blue-color);
+   
+}
+footer{
+    background-color: var(--footer-background-color);
+}
+
+nav>ul{
+    width: 920px;
+    height: 28px;
+    margin: 0 auto;
+}
+
+nav>ul>a>li{
+    float: left;
+    color: white;
+    font-weight: 500;
+    margin-right: 17px;
+}
+nav>ul>a:last-child>li{
+    margin-right: 0;
+}
+.info-container{
+    width: 920px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+.info-container .info{
+    width: 460px;
+    float: left;
+}
+.info-container .copy-container{
+    width: 460px;
+    float: left;
+}
+
+
